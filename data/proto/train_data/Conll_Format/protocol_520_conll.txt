@@ -1,0 +1,92 @@
+First	B-Method
+Strand	I-Method
+Synthesis	I-Method
+with	O
+Reverse	B-Reagent
+Transcriptase	I-Reagent
+
+In	O
+a	O
+sterile	B-Location
+microfuge	I-Location
+tube	I-Location
+add	B-Action
+the	O
+following	B-Reagent
+:	O
+
+Heat	B-Action
+for	O
+3-5	B-Time
+minutes	I-Time
+at	O
+65-80	B-Temperature
+C	I-Temperature
+.	O
+
+Spin	B-Action
+briefly	B-Modifier
+and	O
+place	B-Action
+promptly	B-Modifier
+on	O
+ice	B-Temperature
+.	O
+
+Add	B-Action
+10X	B-Concentration
+RT	B-Reagent
+Buffer	I-Reagent
+.	O
+
+Add	B-Action
+RNAse	B-Reagent
+inhibitor	I-Reagent
+1	B-Amount
+L	I-Amount
+.	O
+
+Add	B-Action
+M-MuLV	B-Reagent
+Reverse	I-Reagent
+Transcriptase	I-Reagent
+1	B-Amount
+L	I-Amount
+.	O
+
+Incubate	B-Action
+at	O
+42	B-Temperature
+C	I-Temperature
+for	O
+one	B-Time
+hour	I-Time
+.	O
+
+Inactivate	B-Action
+enzyme	B-Reagent
+at	O
+90	B-Temperature
+C	I-Temperature
+for	O
+10	B-Time
+minutes	I-Time
+.	O
+
+Store	B-Action
+products	B-Reagent
+at	O
+-20	B-Temperature
+C	I-Temperature
+or	O
+proceed	B-Action
+to	O
+next	O
+step	O
+(	O
+s	O
+)	O
+.	O
+
+
+

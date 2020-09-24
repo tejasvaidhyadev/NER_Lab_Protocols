@@ -1,0 +1,24 @@
+0.5M	B-Concentration
+EDTA	B-Reagent
+
+46.525g	B-Amount
+EDTA	B-Reagent
+disodium	I-Reagent
+2H20	I-Reagent
+in	O
+200ml	B-Amount
+MilliQ	B-Reagent
+Adjust	B-Action
+to	O
+pH	B-pH
+8.0	I-pH
+with	O
+NaOH	B-Reagent
+pellets	I-Reagent
+(	O
+~5g	B-Amount
+)	O
+Autoclave	B-Action
+
+
+

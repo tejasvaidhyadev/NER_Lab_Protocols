@@ -1,0 +1,338 @@
+Fixation	B-Method
+of	O
+yeast	B-Reagent
+cells	I-Reagent
+for	O
+RNA-FISH	B-Reagent
+
+Around	O
+10am	B-Time
+,	O
+start	B-Action
+a	O
+cell	B-Reagent
+culture	I-Reagent
+in	O
+a	O
+50ml	B-Amount
+tube	B-Location
+,	O
+using	O
+10ml	B-Amount
+of	O
+CSM	B-Reagent
+.	O
+
+Grow	B-Action
+for	O
+8-10	B-Time
+hours	I-Time
+in	O
+a	O
+shaker	B-Location
+at	O
+30	B-Temperature
+C	I-Temperature
+.	O
+
+Measure	B-Action
+OD	B-Measure-Type
+in	O
+the	O
+evening	B-Time
+and	O
+dilute	B-Action
+into	O
+250ml	B-Amount
+glass	B-Location
+flasks	I-Location
+,	O
+starting	O
+45ml	B-Amount
+of	O
+CSM	B-Reagent
+for	O
+overnight	B-Time
+growth	B-Method
+.	O
+
+Aiming	O
+for	O
+OD	B-Generic-Measure
+0.2-0.4	I-Generic-Measure
+around	O
+10am	B-Time
+the	O
+next	O
+morning	B-Time
+.	O
+
+Transfer	B-Action
+to	O
+50ml	B-Amount
+falcon	B-Location
+tubes	I-Location
+.	O
+
+Add	B-Action
+5ml	B-Amount
+of	O
+Formaldehyde	B-Reagent
+,	O
+invert	B-Action
+a	O
+few	B-Numerical
+times	I-Numerical
+,	I-Numerical
+set	B-Action
+at	O
+benchtop	B-Location
+for	O
+45min	B-Time
+.	O
+
+Spin	B-Action
+down	I-Action
+at	O
+3,000rpm	B-Speed
+for	O
+4min	B-Time
+.	O
+
+Decant	B-Action
+and	O
+wash	B-Action
+by	O
+pipetting	B-Method
+with	O
+1ml	B-Amount
+of	O
+ice-cold	B-Modifier
+BufferB	B-Reagent
+.	O
+
+Transfer	B-Action
+to	O
+1.5ml	B-Amount
+tubes	B-Location
+.	O
+
+(	O
+wash	O
+1/2	O
+)	O
+.	O
+
+Spin	B-Action
+down	O
+at	O
+3,000rpm	B-Speed
+for	O
+4min	B-Time
+.	O
+
+(	O
+wash	O
+1/2	O
+)	O
+.	O
+
+Wash	B-Action
+once	O
+more	O
+with	O
+1ml	B-Amount
+ice-cold	B-Reagent
+BufferB	I-Reagent
+.	O
+
+(	O
+wash	O
+2/2	O
+)	O
+.	O
+
+Spin	B-Action
+down	O
+at	O
+3,000rpm	B-Speed
+for	O
+4min	B-Time
+.	O
+
+(	O
+wash	O
+2/2	O
+)	O
+.	O
+
+Decant	B-Action
+and	I-Action
+resuspend	I-Action
+in	O
+1ml	B-Amount
+of	O
+BufferB	B-Reagent
+.	O
+
+Add	B-Action
+2.5ul	B-Amount
+of	O
+Zymolyase	B-Reagent
+and	O
+digest	B-Action
+at	O
+30	B-Temperature
+C	I-Temperature
+until	O
+most	O
+of	O
+the	O
+cells	B-Reagent
+turn	O
+dark	O
+when	O
+checked	B-Action
+by	O
+phase	B-Device
+contrast	I-Device
+microscope	I-Device
+.	O
+
+(	O
+See	O
+more	O
+in	O
+the	O
+Guidelines	O
+)	O
+.	O
+
+Drop	B-Action
+1	B-Amount
+L	I-Amount
+of	O
+the	O
+cells	B-Reagent
+onto	O
+a	O
+glass	B-Location
+slide	I-Location
+,	O
+do	O
+not	O
+cover	B-Action
+(	O
+pressure	O
+makes	O
+it	O
+look	O
+like	O
+they	B-Mention
+digested	B-Modifier
+)	O
+.	O
+
+Use	B-Action
+a	O
+20x	B-Device
+scope	I-Device
+with	O
+a	O
+phase	B-Device
+contrast	I-Device
+ring	I-Device
+.	O
+
+Check	O
+digestion	B-Method
+progress	O
+every	O
+30	B-Time
+minutes	I-Time
+.	O
+
+The	O
+cells	B-Reagent
+turn	O
+black/grey	B-Modifier
+from	O
+white/shiny	B-Modifier
+.	O
+
+Aim	O
+for	O
+80	B-Amount
+%	I-Amount
+-90	I-Amount
+%	I-Amount
+of	O
+the	O
+cells	B-Reagent
+within	O
+the	O
+view	O
+to	O
+be	O
+digested	B-Modifier
+.	O
+
+Do	O
+not	O
+overdigest	B-Action
+.	O
+
+Wash	B-Action
+with	O
+1ml	B-Amount
+ice-cold	B-Reagent
+BufferB	I-Reagent
+,	O
+spinning	B-Action
+5-6min	B-Time
+at	O
+2,000rpm	B-Speed
+.	O
+
+(	O
+wash	O
+1/2	O
+)	O
+.	O
+
+Decant	B-Action
+and	O
+wash	B-Action
+again	O
+with	O
+1ml	B-Amount
+ice-cold	B-Reagent
+BufferB	I-Reagent
+,	O
+spinning	B-Action
+5-6min	B-Time
+at	O
+2,000rpm	B-Speed
+.	O
+
+(	O
+wash	O
+2/2	O
+)	O
+.	O
+
+Resuspend	B-Action
+in	O
+1ml	B-Amount
+of	O
+70	B-Concentration
+%	I-Concentration
+Ethanol	B-Reagent
+overnight	B-Time
+at	O
+4	B-Temperature
+C	I-Temperature
+.	O
+
+
+

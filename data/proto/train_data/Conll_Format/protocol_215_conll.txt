@@ -1,0 +1,61 @@
+Digestion	B-Method
+for	O
+BioBrick	B-Device
+Assembly	I-Device
+Kit	I-Device
+(	O
+E0546	O
+)	O
+
+Digest	B-Action
+Upstream	B-Reagent
+Part	I-Reagent
+with	O
+EcoRI-HF	B-Reagent
+and	O
+SpeI	B-Reagent
+.	O
+
+Digest	B-Action
+Downstream	B-Reagent
+Part	I-Reagent
+with	O
+XbaI	B-Reagent
+and	O
+PstI	B-Reagent
+.	O
+
+Digest	B-Action
+the	O
+Destination	B-Reagent
+Plasmid	I-Reagent
+with	O
+EcoRI-HF	B-Reagent
+and	O
+PstI	B-Reagent
+.	O
+
+Incubate	B-Action
+all	O
+three	B-Numerical
+restriction	B-Reagent
+digest	I-Reagent
+reactions	I-Reagent
+at	O
+37	B-Temperature
+C	I-Temperature
+for	O
+10	B-Time
+minutes	I-Time
+Heat	B-Action
+inactivate	I-Action
+at	O
+80	B-Temperature
+C	I-Temperature
+for	O
+20	B-Time
+minutes	I-Time
+.	O
+
+
+
