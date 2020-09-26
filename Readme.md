@@ -7,28 +7,31 @@ For more derail refer [shared task website](http://noisy-text.github.io/2020/wlp
 
 ## Dependencies and setup
 
-- python 3.8 conda `create --name covid_entities python=3.8 & conda activate covid_entities`
-- PyTorch 1.5.0, `cudatoolkit=10.1 conda install pytorch==1.5.0 cudatoolkit=10.1 -c pytorch`
-- 🤗Huggingface transformers - 2.9.0 `pip install transformers==2.9.0`
-- scikit-learn 0.23.1 pip install `scikit-learn==0.23.1`
-- nltk pip 3.5 `install nltk==3.5`
+- python 3.8 conda `create --name protocol_NER python=3.8 & conda activate protocol_NER`
+- PyTorch 1.5.0, cudatoolkit=10.1 `conda install pytorch==1.5.0 cudatoolkit=10.1 -c pytorch`
+- 🤗Huggingface transformers 2.9.0 `pip install transformers==2.9.0`
+- scikit-learn 0.23.1 `pip install scikit-learn==0.23.1`
+- nltk 3.5 `pip install nltk==3.5`
 
 ## Model Description 
 ![Bio-Bert](./asset/Bio-BERT.png)
 
 ## Instruction for training the models
 0. Set up the codebase and requirements
-    -`git clone https://github.com/Ayushk4/extract_covid_entity & cd extract_covid_entity.`
+    -`git clone https://github.com/tejasvaidhyadev/W-NUT_2020.git` & `cd W-NUT_2020.`
     - Follow the instructions from the Dependencies and `set-up` above to install the dependencies.
-1. Setup the dataset : Fllow instruction in `data/README.md`
+1. Setup the dataset : Fllow instruction in `./data/README.md`
 
 2. Recreating the experiment for the final submission:
     -run `python train.py` --dataset=proto (BERT model will be automatically chosen (for now Bio-BERT). It will instantiate a model and train it on the training set following the hyper-parameters specified in `experiment/proto/params.json`. )
-    - preprocessing of Dataset for bert input refer `data/readme`
-We release the models weights for our final submission.
+    - preprocessing of Dataset for bert input refer `./data/Readme.md`
 
-- **Bio-BERT model**[]
+**We release the models weights for our final submission.**
 
+- [**Bio-BERT model**](https://github.com/tejasvaidhyadev/W-NUT_2020/releases/download/v0.0.1/biobert-onfinaldata.zip)
+- paste the extracted file in `./experiment/proto/`
+
+## Model Performance 
 Model Performance on test set released for final evaluation using organisers [script](https://github.com/jeniyat/WNUT_2020_NER/tree/master/code/eval) (exact match)
 **On exact matches**
 
