@@ -14,7 +14,7 @@ For more derail refer [shared task website](http://noisy-text.github.io/2020/wlp
 - nltk 3.5 `pip install nltk==3.5`
 
 ## Model Description 
-![Bio-Bert](./asset/Bio-BERT.png)
+![Bio-Bert](./asset/Tejas.eps)
 
 ## Instruction for training the models
 0. Set up the codebase and requirements
