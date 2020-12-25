@@ -7,11 +7,9 @@ This Repo contains
 - Trained models used in the final submission. 
 - Dependencies and steps to replicate results.
 
-Relevant Links: [arxiv-pdf](https://arxiv.org/pdf/2012.11145.pdf), [poster](https://github.com/noisy-text/noisy-text.github.io/blob/master/2020/posters/WNUT2020_92_poster%20-%20Tejas%20vaidhya.pdf)
+Relevant Links: [arxiv-pdf](https://arxiv.org/pdf/2012.11145.pdf) | [poster](https://github.com/noisy-text/noisy-text.github.io/blob/master/2020/posters/WNUT2020_92_poster%20-%20Tejas%20vaidhya.pdf)
 
-For more derail refer [shared task website](http://noisy-text.github.io/2020/wlp-task.html)
-
-**Code Credits**: [BERT_NER](https://github.com/weizhepei/BERT-NER)
+For more detail refer [shared task website](http://noisy-text.github.io/2020/wlp-task.html)
 
 Please cite with the following BiBTeX code:
 ```
@@ -32,8 +30,6 @@ Please cite with the following BiBTeX code:
 Supervised models trained to predict properties from representations have been achieving high accuracy on a variety of tasks. For instance, the BERT family seems to work exceptionally well on the downstream task from NER tagging to the range of other linguistic tasks. But the vocabulary used in the medical field contains a lot of different tokens used only in the medical industry such as the name of different diseases, devices, organisms, medicines, etc. that makes it difficult for traditional BERT model to create contextualized embedding. In this paper, we are going to illustrate the System for Named Entity Tagging based on Bio-Bert. Experimental results show that our model gives substantial improvements over the baseline and stood the fourth runner up in terms of F1 score, and first runner up in terms of Recall with just 2.21 F1 score behind the best one.
 
 ## Dependencies and setup
-
-## Dependencies and set-up
 
 | Dependency | Version | Installation Command |
 | ---------- | ------- | -------------------- |
@@ -116,7 +112,7 @@ Model Performance on test set released for final evaluation using organisers [sc
 ## Miscellanous
 
 - You may contact us by opening an issue on this repo. Please allow 2-3 days of time to address the issue.
-
+- The starter Code Credits: [BERT_NER](https://github.com/weizhepei/BERT-NER)
 
 ## License
 MIT
